@@ -8,7 +8,12 @@ const util = require('util')
 const questions = [
     {
     type: 'input',
-    message: 'What is your user name?',
+    message: 'What is your Github user name?',
+    name: 'name',
+    },
+    {
+    type: 'input',
+    message: 'What is the title of your project?',
     name: 'title',
     },
     {
@@ -36,6 +41,12 @@ const questions = [
     message: 'What is the testing procedure for your project?',
     name: 'tests',
     },
+    {
+    type: 'list',
+    message: 'What license is your project developed under?',
+    name: 'contact',
+    choices: ['Apache', 'GNU', 'MIT', 'ISC'],
+    },
 ];
 
 const promptUserQuestions = () => {
@@ -48,8 +59,6 @@ const writeToFile  = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
 function init() {
-
-    console.log(utils)
     
     promptUserQuestions()
         .then((answers)=>writeToFile('README.md',markdownGenerator(answers)))

@@ -28,6 +28,11 @@ const generateMarkdown = (data) =>
 
   ## Contribution
   ${data.contribution}
+
+
+  ##Questions
+
+  For questions please feel free to reach out through my [Github Profile]!(https://github.com/${data.name})
   
   `;
                           
