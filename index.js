@@ -13,6 +13,11 @@ const questions = [
     },
     {
     type: 'input',
+    message: 'What is your email?',
+    name: 'email',
+    },
+    {
+    type: 'input',
     message: 'What is the title of your project?',
     name: 'title',
     },
@@ -44,8 +49,8 @@ const questions = [
     {
     type: 'list',
     message: 'What license is your project developed under?',
-    name: 'contact',
-    choices: ['Apache', 'GNU', 'MIT', 'ISC'],
+    name: 'license',
+    choices: ['Apache 2.0', 'GNU GPL v3', 'MIT', 'Mozilla Public License 2.0','[None]'],
     },
 ];
 
