@@ -12,7 +12,7 @@
   7. [Questions](#questions)
   
 
-  ### License: <br />  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is developed and distributed under the MIT license. More information of this license can be found by clicking [here](https://choosealicense.com/licenses/mit/).
+  ### License: <br />  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is developed and distributed under the MIT license. More information on this license can be found by clicking [here](https://choosealicense.com/licenses/mit/).
 
 
   ## Description

@@ -66,7 +66,7 @@ function renderLicenseSection(license) {
     return '';
   }else{
     
-    return `### License: <br />  ${renderLicenseBadge(license)} <br /> This application is developed and distributed under the ${license} license. More information of this license can be found by clicking [here](${renderLicenseLink(license)}).`;
+    return `### License: <br />  ${renderLicenseBadge(license)} <br /> This application is developed and distributed under the ${license} license. More information on this license can be found by clicking [here](${renderLicenseLink(license)}).`;
     
   }
 }
